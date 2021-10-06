@@ -1,0 +1,43 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>LOMBA RW05 2021</title>
+            <meta name="author" content="tanggal 23-9-21">
+        </head>
+        <body>
+            <center><font type=arial size="6"> LOMBA RW05 2021</font></center>
+            
+            
+            <br><br>
+            <form>
+            <fieldset>
+            <legend>Isi Data peserta</legend>
+            <form action="/action_page.php">
+                  <input type="radio" id="PUBG" name="Tournament" value="PUBG" required="required">
+                  <label for="html">Puisi</label><br>
+                  <input type="radio" id="ML" name="Tournament" value="ML" required="required">
+                  <label for="css">Menggambar</label>
+                <br><br>
+            <label for="fname">Nama :</label>
+            <input type="text" id="fname" name="fname" required="required"
+            ><br><br>
+            <label for="foto">Contoh yang akan digambar (opsional) : </label>
+            <input type="file" name="newfile" required="required">
+            <br><br>
+            <label for="list team">List alat yang dibutuhkan:</label>
+            <p><textarea name="team" id="team" cols="30" rows="10" required="required"></textarea></p>
+            <br><br>
+            <label for="birthday">Tanggal Lomba (1-9 Agustus) :</label>
+            <input type="date" id="birthday" name="birthday" required="required">
+            <br><br>
+            <label for="tempat"> Tempat </label>
+            <select name="Tempat" id="Tempat">
+                <option value="Online">Online</option>
+                <option value="Offline">Offline</option>
+            </select>
+            <br><br>
+        </fieldset>
+    </form>
+    <BUtton>Submit </BUtton>
+        </body>
+    </html>
